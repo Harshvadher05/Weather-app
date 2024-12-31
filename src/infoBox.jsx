@@ -40,16 +40,14 @@ export default function InfoBox({ info }) {
 
   return (
     <div className="infoBox">
-      <Card sx={{ maxWidth: 345 ,backgroundColor:"rgba(135, 206, 250, 0.579)"}}>
-        {/* <CardMedia component="img" alt="weather" height="140" image={img} /> */}
+      <Card
+        sx={{ maxWidth: 345, backgroundColor: "rgba(135, 206, 250, 0.579)" }}
+      >
         <CardContent>
           <h2 className="cityName">
             {info.city}&nbsp;
             {handleIcon()}
           </h2>
-          {/* <Typography gutterBottom variant="h5" component="div" className="cityName">
-            {info.city}
-          </Typography> */}
           <Typography
             variant="body2"
             sx={{ color: "text.secondary", fontWeight: 600, fontSize: 15 }}
