@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.title {
+  margin: 2rem 1rem 2rem 1rem;
+  top: 20%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.searchArea {
+  margin: 0 1rem 0 1rem;
+}
+
+@media(max-width:450px){
+  .title{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
