@@ -61,6 +61,7 @@ export default function InfoBox({ info }) {
               {info.feelsLike}&deg;C
             </p>
             {/* <h1>hello world</h1> */}
+            <h2>hey there</h2>
           </Typography>
         </CardContent>
       </Card>
