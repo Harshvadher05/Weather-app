@@ -60,7 +60,7 @@ export default function InfoBox({ info }) {
               Weather can be describe as <i>{info.weather}</i> and feels like{" "}
               {info.feelsLike}&deg;C
             </p>
-            <h1>hello world</h1>
+            {/* <h1>hello world</h1> */}
             {/* <h2>hey there</h2> */}
           </Typography>
         </CardContent>
