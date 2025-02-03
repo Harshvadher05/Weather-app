@@ -44,9 +44,7 @@ export default function WeatherApp() {
         </div>
         <div
           className="rightSide"
-          style={{ display: weatherInfo.city == "" ? "none" : "block" 
-            
-          }}
+          style={{ display: weatherInfo.city == "" ? "none" : "block" }}
         >
           <InfoBox info={weatherInfo} />
         </div>
