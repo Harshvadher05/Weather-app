@@ -7,7 +7,7 @@ import { colors } from "@mui/material";
 
 export default function SearchBox({ updateInfo, blankInfo }) {
   let API_URL = "https://api.openweathermap.org/data/2.5/weather";
-  let API_KEY = "b670dea542f2616588bc7dabed1c60be";
+  let API_KEY = String(import.meta.env.API_KEY);
   let [city, setCity] = useState("");
   let [error, setError] = useState(false);
   let msg = document.querySelector(".container .msg");

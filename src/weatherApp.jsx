@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import InfoBox from "./infoBox";
 import SearchBox from "./searchBox";
 import "./weatherApp.css";
+import './searchBox.css';
 
 export default function WeatherApp() {
   let [bgImg, setBgImg] = useState("url(./src/assets/initial.png)");
